@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Подорожі</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<style>
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+.footer {
+margin: 8px;
+background-color: #b8c9db;
+height: 30px;
+clear: both;
+font-family: Mistral;
+font-size: 25px;
+}
+.header {
+    text-align: center;
+    padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 16px;
+		
+	}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 16px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 33.3%;
+    max-width: 33.3%;
+    padding: 0 8px;
+}
+
+.column img {
+    margin-top: 16px;
+    vertical-align: middle;
+}
+
+<!--/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}-->
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 800px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+</style>
+<body >
+
+<!-- Header -->
+<div class="header">
+<img src="Image/1.jpg" style="width:100%">
+ 
+</div>
+
+<!-- Photo Grid -->
+<center>
+<div class="row"> 
+
+  <div class="column">
+    <a href="index.html"><img src="Image/2.jpg" style="width:100%"></a>
+    <a href="foto.html"><img src="Image/3.jpg" style="width:100%"></a>
+   
+    
+  </div>
+  <div class="column">
+   <a href="mapa.html"> <img src="Image/4.jpg" style="width:100%"></a>
+  
+  </div>  
+  <div class="column">
+   <a href="fakti.html"><img src="Image/5.jpg" style="width:100%"></a>
+   <a href="mista.html"> <img src="Image/6.jpg" style="width:100%"></a>
+    
+    
+  </div>
+</div>
+<div class="footer">
+<center>IVANNA</center>
+ 
+</div>
+</body>
+</html>
